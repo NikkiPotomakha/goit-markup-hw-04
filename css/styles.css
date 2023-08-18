@@ -133,11 +133,6 @@ img {
   flex-grow: 1;
 }
 
-.main-portfolio {
-  width: 1440px;
-  height: 2076px;
-  background-color: #ffffff;
-}
 .dark-section {
   background-color: #2e2f42;
   background-image: url(../images/people-office.jpg);
