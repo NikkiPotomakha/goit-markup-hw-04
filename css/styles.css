@@ -44,9 +44,13 @@ ol {
   display: flex;
   width: 1440px;
   height: 72px;
+  margin: 0 auto;
   justify-content: center;
   align-content: center;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header .container {
@@ -141,10 +145,19 @@ img {
 /* Main first section */
 
 .dark-section {
+  max-width: 1440px;
+  height: 600px;
   padding: 188px 0;
+  margin: 0 auto;
   background-color: #2e2f42;
   background-image: url(../images/people-office.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
+  background-position: center;
 }
 .container-main {
   display: flex;
@@ -279,6 +292,9 @@ img {
   background-color: #ffffff;
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-card {
   display: flex;
@@ -455,6 +471,7 @@ img {
   width: 1440px;
   height: 312px;
   flex-shrink: 0;
+  margin: 0 auto;
   padding: 100px 0;
   background-color: var(--navy-blue);
   flex-direction: column;
