@@ -316,6 +316,13 @@ img {
   display: flex;
   gap: 24px;
 }
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
 .card-description {
   padding: 32px 0;
 }
@@ -337,24 +344,49 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
-.team-card-list-icon {
+.team-card-icon {
   width: 40px;
   height: 40px;
   display: flex;
   flex-direction: row;
-  gap: 24px;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   background-color: #4d5ae5;
   color: #f4f4fd;
 }
-.team-card-list-icon {
+.team-card-icon {
   fill: currentColor;
+  fill: var(--cloud);
 }
 /* Customers section */
 
+.customers-section {
+  padding: 120px 0;
+}
+.customers-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.logo-icon {
+  width: 168px;
+  height: 88px;
+  color: var(--light-slate);
+}
+.logo-icon {
+  fill: currentColor;
+  transition: fill var(--transition-settings);
+}
+.custom-list-item {
+  display: flex;
+  width: calc(
+    (100% - var(--listed-gap) * (var(--listeditems) - 1)) / var(--listeditems)
+  );
+  height: 88px;
+}
 /* Main Portfolio Section */
 
 .portfolio-section {
@@ -494,7 +526,7 @@ img {
   padding-bottom: 120px;
 }
 
-/* Fifth section */
+/* Footer section */
 
 .ftr {
   background-color: #2e2f42;
@@ -554,8 +586,10 @@ img {
   background-color: #2e2f42;
 }
 .footer-wrapper .container {
-  margin-right: 120px;
+  align-items: baseline;
+  display: flex;
 }
+
 .social-media {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -567,10 +601,7 @@ img {
   display: flex;
   margin-bottom: 16px;
 }
-.footer .list {
-  display: flex;
-  gap: 16px;
-}
+
 .footer-icon {
   display: flex;
   align-items: center;
