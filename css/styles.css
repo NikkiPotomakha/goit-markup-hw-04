@@ -59,7 +59,12 @@ ol {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
-
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 1;
+}
 .header .container {
   display: flex;
 }
@@ -387,6 +392,7 @@ img {
   );
   height: 88px;
 }
+
 /* Main Portfolio Section */
 
 .portfolio-section {
@@ -519,11 +525,11 @@ img {
   flex-basis: calc((100% - 48px) / 3);
   background: var(--white);
 }
-.card-overlay {
+.portfolio-section .card-overlay {
   position: relative;
   overflow: hidden;
 }
-.card-overlay-text {
+.portfolio-section .card-overlay-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -684,7 +690,7 @@ img {
   width: 408px;
   min-height: 584px;
   border-radius: 4px;
-  background-color: var(--dairy);
+  background-color: var(--daily);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
   transition: transform var(--transition-settings);
@@ -695,8 +701,8 @@ img {
   align-items: center;
   justify-content: center;
   position: absolute;
-  right: var(--listed-gap);
-  top: var(--listed-gap);
+  right: 24px;
+  top: 24px;
   width: 24px;
   height: 24px;
   fill: var(--cornflower);
@@ -728,5 +734,5 @@ img {
 
 .backdrop .modal-btn:hover .modal-btn-ico,
 .backdrop .modal-btn:focus .modal-btn-ico {
-  fill: var(--main-bkgrnd-color);
+  fill: var(--white);
 }
