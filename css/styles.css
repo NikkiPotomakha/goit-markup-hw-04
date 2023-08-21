@@ -235,13 +235,27 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+.text-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
 .text-article {
   display: flex;
   width: 264px;
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
+}
+.text-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  background-color: var(--cloud);
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 .ttl {
   display: flex;
@@ -259,11 +273,6 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.text-list {
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
 }
 
 /* Third section */
@@ -295,7 +304,7 @@ img {
   background-color: var(--cloud);
   padding: 120px 0;
 }
-.prof-item {
+.team-card-item {
   background-color: #ffffff;
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -329,7 +338,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.team-card-list-wrapper {
+.team-card-list-icon {
   width: 40px;
   height: 40px;
   display: flex;
@@ -341,9 +350,10 @@ img {
   background-color: #4d5ae5;
   color: #f4f4fd;
 }
-.team-card-list-wrapper {
+.team-card-list-icon {
   fill: currentColor;
 }
+/* Customers section */
 
 /* Main Portfolio Section */
 
@@ -566,9 +576,13 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  color: #f4f4fd;
   background-color: var(--iris);
   padding: 8px;
   transition: background-color var(--transition-settings);
+}
+.footer-icon {
+  fill: currentColor;
 }
 .footer-icon:hover,
 .footer-icon:focus {
