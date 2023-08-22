@@ -142,6 +142,10 @@ img {
 .nav-menu:focus {
   color: #404bbf;
 }
+.menu-item {
+  position: relative;
+  color: #404bbf;
+}
 .contact-list {
   font-family: "Roboto", sans-serif;
   color: var(--slate);
