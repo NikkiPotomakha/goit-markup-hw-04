@@ -391,8 +391,8 @@ img {
   align-items: center;
   justify-content: center;
 }
-.icon-link .link:hover,
-.icon-link .link:focus {
+.team-card-icon .link:hover,
+.team-card-icon .link:focus {
   background-color: #404bbf;
 }
 .team-card-list-icon {
