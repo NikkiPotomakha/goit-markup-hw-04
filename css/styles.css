@@ -670,10 +670,8 @@ img {
   letter-spacing: 0.02em;
 }
 
-.footer-wrapper-container {
+.container-box {
   margin-right: 120px;
-  display: flex;
-  align-items: baseline;
 }
 
 .social-media {
