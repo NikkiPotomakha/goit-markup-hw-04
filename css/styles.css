@@ -388,7 +388,6 @@ img {
   justify-content: center;
 }
 .team-card-list-icon {
-  fill: currentColor;
   fill: var(--cloud);
 }
 /* Customers section */
