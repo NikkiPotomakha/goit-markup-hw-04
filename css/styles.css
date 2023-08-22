@@ -393,8 +393,8 @@ img {
   align-items: center;
   justify-content: center;
 }
-.card-description .link:hover,
-.card-description .link:focus {
+.team-card-icon .link:hover,
+.team-card-icon .link:focus {
   background-color: #404bbf;
 }
 .team-card-list-icon {
