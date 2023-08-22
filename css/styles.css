@@ -376,6 +376,11 @@ img {
   display: flex;
   flex-direction: row;
   color: #f4f4fd;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .icon-link {
   width: 100%;
