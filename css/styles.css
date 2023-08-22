@@ -759,6 +759,8 @@ img {
   padding: 0x;
   transition: background-color var(--transition-settings),
     border var(--transition-settings);
+  padding: 0;
+  cursor: pointer;
 }
 
 .backdrop .modal-btn:hover,
