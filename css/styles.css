@@ -416,7 +416,6 @@ img {
   color: var(--light-slate);
 }
 .logo-icon {
-  fill: currentColor;
   transition: fill var(--transition-settings);
 }
 .custom-list-item {
@@ -424,6 +423,20 @@ img {
     (100% - var(--listed-gap) * (var(--listeditems) - 1)) / var(--listeditems)
   );
   height: 88px;
+}
+.custom-list-item .link {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8e8f99;
+  fill: currentColor;
+}
+.custom-list-item .link:hover,
+.custom-list-item .link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
 }
 
 /* Main Portfolio Section */
