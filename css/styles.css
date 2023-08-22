@@ -161,6 +161,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-list:hover,
 .contact-list:focus {
@@ -233,6 +234,7 @@ img {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover,
 .button:focus {
