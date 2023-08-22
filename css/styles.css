@@ -401,11 +401,8 @@ img {
 }
 .logo-icon {
   fill: currentColor;
-  fill: var(--light-slate);
 }
-.logo-icon {
-  transition: fill var(--transition-settings);
-}
+
 .custom-list-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
