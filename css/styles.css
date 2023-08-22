@@ -412,7 +412,7 @@ img {
 }
 .logo-icon {
   width: 168px;
-  height: 88px;
+  fill: currentColor;
   color: var(--light-slate);
 }
 .logo-icon {
@@ -433,7 +433,6 @@ img {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
-  fill: currentColor;
 }
 .custom-list-item .link:hover,
 .custom-list-item .link:focus {
