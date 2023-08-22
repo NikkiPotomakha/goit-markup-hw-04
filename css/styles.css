@@ -411,17 +411,14 @@ img {
   gap: 24px;
 }
 .logo-icon {
-  width: 168px;
   fill: currentColor;
-  color: var(--light-slate);
+  fill: var(--light-slate);
 }
 .logo-icon {
   transition: fill var(--transition-settings);
 }
 .custom-list-item {
-  width: calc(
-    (100% - var(--listed-gap) * (var(--listeditems) - 1)) / var(--listeditems)
-  );
+  width: calc((100% - 120px) / 6);
   height: 88px;
 }
 .custom-list-item .link {
