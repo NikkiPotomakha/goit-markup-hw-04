@@ -629,7 +629,7 @@ img {
   display: flex;
 }
 
-.footer .container {
+.ftr .container {
   display: flex;
   align-items: baseline;
 }
