@@ -684,6 +684,10 @@ img {
   color: var(--white);
   margin-bottom: 16px;
 }
+.footer-list {
+  display: flex;
+  gap: 16px;
+}
 .footer .link {
   display: inline-block;
   margin-bottom: 16px;
