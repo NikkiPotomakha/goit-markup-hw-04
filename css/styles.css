@@ -629,7 +629,7 @@ img {
   display: flex;
 }
 
-.container .footer {
+.footer .container {
   display: flex;
   align-items: baseline;
 }
@@ -670,7 +670,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-.footer-wrapper .container {
+.footer-wrapper-container {
   margin-right: 120px;
   display: flex;
   align-items: baseline;
