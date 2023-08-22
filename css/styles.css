@@ -372,6 +372,7 @@ img {
 .team-card-icon {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-link .link:hover,
 .icon-link .link:focus {
@@ -387,7 +388,6 @@ img {
   justify-content: center;
   flex-direction: row;
   color: #f4f4fd;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-card-list-icon {
   fill: currentColor;
