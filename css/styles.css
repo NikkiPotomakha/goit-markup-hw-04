@@ -408,7 +408,6 @@ img {
 }
 .customers-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
 }
 .logo-icon {
@@ -421,7 +420,6 @@ img {
   transition: fill var(--transition-settings);
 }
 .custom-list-item {
-  display: flex;
   width: calc(
     (100% - var(--listed-gap) * (var(--listeditems) - 1)) / var(--listeditems)
   );
