@@ -145,6 +145,10 @@ img {
 .menu-item {
   position: relative;
   color: #404bbf;
+  transition: var(--transition-settings);
+}
+.address-item {
+  transition: var(--transition-settings);
 }
 .contact-list {
   font-family: "Roboto", sans-serif;
