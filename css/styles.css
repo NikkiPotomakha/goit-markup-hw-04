@@ -386,8 +386,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  color: #f4f4fd;
 }
 .team-card-list-icon {
   fill: currentColor;
