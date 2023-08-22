@@ -134,6 +134,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  position: relative;
+  color: #404bbf;
 }
 .nav-menu-link {
   text-decoration: none;
